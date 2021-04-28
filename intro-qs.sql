@@ -36,7 +36,7 @@ ORDER BY last_name DESC;
 --5. What store employee (get the id) sold the most rentals?
 --Answer: staff_id is 1 (8040)
 SELECT COUNT(*)
-FROM rental; --total rentals <> 16044
+FROM rental; --total rentals = 16044
 
 SELECT COUNT(*)
 FROM rental
